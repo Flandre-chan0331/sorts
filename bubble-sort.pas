@@ -1,4 +1,4 @@
-program sort;
+program bubble_sort;
 uses crt;
 const max=256;
 type arrint=array[1..max] of integer;
