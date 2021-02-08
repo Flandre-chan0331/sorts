@@ -22,7 +22,7 @@ begin
              A[i]:=A[i+1];
              A[i+1]:=t;
            end;
-  writeln(‘Sorted sequence of number: ‘)
+  writeln('Sorted sequence of number: ')
   for i:=1 to N do writeln(A[i]:4:10);
   readln
 end.
