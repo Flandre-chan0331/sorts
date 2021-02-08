@@ -7,11 +7,11 @@ var N,i,j:integer;
     A:arrreal;
 begin
   clrscr;
-  write(‘Enter number of elements of sequence of numbers, N = ‘);
+  write('Enter number of elements of sequence of numbers, N = ');
   readln(N)
   for i:=1 to N do
      begin
-         write(‘Element # ‘,i,’ = ‘);
+         write('Element # ',i,' = ');
          readln(A[i]);
      end;
   for j:=N downto 2 do
