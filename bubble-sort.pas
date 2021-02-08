@@ -1,9 +1,10 @@
 program bubble_sort;
 uses crt;
 const max=256;
-type arrint=array[1..max] of integer;
-var N,i,j,t:integer;
-    A:arrint;
+type arrreal=array[1..max] of real;
+var N,i,j:integer;
+    t:real;
+    A:arrreal;
 begin
   clrscr;
   write(‘Enter number of elements of sequence of numbers, N = ‘);
@@ -22,6 +23,6 @@ begin
              A[i+1]:=t;
            end;
   writeln(‘Sorted sequence of number: ‘)
-  for i:=1 to N do write(A[i]:4);
+  for i:=1 to N do writeln(A[i]:4:10);
   readln
 end.
